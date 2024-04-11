@@ -5,7 +5,7 @@ import sidebar from './sidebar'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Ninjas Guide",
-  base: "/api-ninja/",
+  base: "/ApigeeGuides/",
   description: "The complete guide to all API Ninjas",
   ignoreDeadLinks: true,
   themeConfig: {
