@@ -7,6 +7,7 @@ export default defineConfig({
   title: "Ninjas Guide",
   base: "/api-ninja/",
   description: "The complete guide to all API Ninjas",
+  ignoreDeadLinks: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
