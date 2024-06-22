@@ -31,7 +31,6 @@ jobs:
         run: node generatePdf.js
 
       - name: Commit and push PDF
-        uses: actions/checkout@v3
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
