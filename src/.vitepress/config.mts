@@ -7,12 +7,12 @@ export default defineConfig({
   title: "Ninjas Guide",
   base: "/ApigeeGuides/",
   description: "The complete guide to all API Ninjas",
-  ignoreDeadLinks: true,
+  ignoreDeadLinks: false,
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [
+    nav:[
       { text: 'Home', link: '/' },
     ],
+
     sidebar: sidebar
   }
 })

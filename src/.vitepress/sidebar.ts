@@ -4,30 +4,22 @@ export default [
         link: '/'
     },
     {
-        text: "Learning Guide",
-        link: "LearningGuide.md"
+        text: "New team member",
+        link: "Onboarding.md"
     },
     {
         text: "Development Guide",
         items: [
             {
-                text: "GeneralRules",
+                text: "Design",
                 items: [
                     {
-                        text: "1. Design",
-                        link: "Development/GeneralRules/1-Design.md"
+                        text: "1. Naming Conventions",
+                        link: "Design/1_naming.md"
                     },
                     {
-                        text: "2. Development",
-                        link: "Development/GeneralRules/2-Development.md"
-                    },
-                    {
-                        text: "3. Testing",
-                        link: "Development/GeneralRules/3-Testing.md"
-                    },
-                    {
-                        text: "4. Documentation",
-                        link: "Development/GeneralRules/4-Documentation.md"
+                        text: "2. Design Principles",
+                        link: "Design/2_design.md"
                     }
                 ]
             },
