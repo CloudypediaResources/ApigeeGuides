@@ -18,7 +18,7 @@ This aims to enforce a lightweight governance while encouraging innovation and c
 2. API Design
    1. [Naming Conventions](Design/1_naming)
    2. [Swagger File Structure](Design/2_design)
-3. API Implementation
+3. [API Implementation](Development/index.md)
    1. API Implementation Lifecycle
    2. Mediation Guidelines
    3. Security Guidelines

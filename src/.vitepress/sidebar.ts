@@ -8,20 +8,25 @@ export default [
         link: "Onboarding.md"
     },
     {
-        text: "Development Guide",
+        text: "Roles",
         items: [
             {
                 text: "Design",
+                link: "#",
                 items: [
                     {
                         text: "1. Naming Conventions",
-                        link: "Design/1_naming.md"
+                        link: "/Design/1_naming.md"
                     },
                     {
                         text: "2. Design Principles",
-                        link: "Design/2_design.md"
+                        link: "/Design/2_design.md"
                     }
                 ]
+            },
+            {
+                text: "Development",
+                link: "Development/index.md",
             },
             {
                 text: "GeneralTopics",
